@@ -22,3 +22,35 @@ body {
     text-align: center;
     color: #107777;
 }
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 50%;
+}
+
+.main-container h1 {
+    text-align: center;
+    color: #333333;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-container img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    text-align: center;
+    color: #9e9e9e;
+    margin-top: 10px;
+}
