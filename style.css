@@ -12,15 +12,17 @@ body {
 }
 
 .logo {
-    width: 200px;
+    width: 180px;
+    padding-top: 10px;
 }
 
 .subtitle {
-    border-top: 1px solid #fee8af;
+    border-top: 1.5px solid #fee8af;
     background-color: #fdfbf1;
     width: 100%;
     text-align: center;
     color: #107777;
+    font-size: 0.8em;
 }
 
 main {
@@ -40,10 +42,16 @@ main {
     color: #333333;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 45px;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .main-container img {
-    height: 600px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -59,16 +67,56 @@ figcaption {
     margin-top: 20px;
     border-left: 1px solid #fee8af;
     padding-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .link-image h4 {
     color: #b5460f;
     margin: 0;
     padding: 0;
+    font-weight: 300;
 }
 
 .link.image a {
     color: #127878;
 }
 
+.ingredients h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #333333;
+    border-bottom: solid 0.5px #7bd6d6;
+    padding-bottom: 20px;
+}
+
+.ingredients h4 {
+    color: #333333;
+}
+
+ul {
+    padding-left: 33px;
+    color: #333333;
+}
+
+ul li {
+    padding-bottom: 15px;
+    padding-left: 4px;
+    color: #333333;
+}
+
+.method h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #333333;
+    border-bottom: solid 0.5px #7bd6d6;
+    padding-bottom: 20px;
+}
+
+ol li {
+    color: #333333;
+}
+
+.method p {
+    color: #333333;
+    padding-left: 40px;
+}
